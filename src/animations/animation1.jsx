@@ -31,7 +31,7 @@ const Content = ({ toggle, color, scale, shape, start, end, stop, rotation }) =>
   </div>
 );
 
-class App extends React.Component {
+class Animation1 extends React.Component {
   constructor(props) {
     super(props);
     this.state = { toggle: true };
@@ -63,5 +63,5 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Animation1;
 
